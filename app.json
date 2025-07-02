@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "DevlopApp Basic",
+    "slug": "devlop-app-basic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/design/logo.png",
+    "splash": {
+      "image": "./src/design/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#111827"
+    },
+    "updates": { "fallbackToCacheTimeout": 0 },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "foregroundImage": "./src/design/logo.png", "backgroundColor": "#111827" } },
+    "web": { "favicon": "./src/design/logo.png" }
+  }
+}
